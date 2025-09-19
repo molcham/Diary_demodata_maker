@@ -1,0 +1,23 @@
+/*
+
+타입스크립트 컴파일 작업을 진행할 때 
+자바스크립트 파일도 포함될 수 있는지를 설정해주는 속성
+
+타입스크립트 => 컴파일 => 자바스크립트
+
+*/
+
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "ESNext",
+      "moduleResolution": "Bundler",
+      "lib": ["ES2020"],
+      "strict": true,
+      "declaration": false,
+      "skipLibCheck": true,
+      "outDir": "dist",
+      "resolveJsonModule": true
+    },
+    "include": ["src"]
+  }
